@@ -1,1 +1,57 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><title>best-resume-ever</title><link href=/best-resume-ever/static/css/app.ae7af70b13fea36a9985d00d11633024.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/best-resume-ever/static/js/manifest.a1968370188ff6000ad1.js></script><script type=text/javascript src=/best-resume-ever/static/js/vendor.7b20ea13c2dde15b4c9c.js></script><script type=text/javascript src=/best-resume-ever/static/js/app.72eb82223dac58f4e917.js></script></body></html>
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <<<<<<< HEAD 
+  <!DOCTYPE html> 
+  <html> 
+    <head> 
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+      <title>best-resume-ever</title> 
+    <link href="/best-resume-ever/static/css/app.a5fbe72f40b722ac35bd4bd5fd00bd9d.css" rel="stylesheet"></  head> 
+    <body> 
+      <div id="app"></div> 
+      <!-- built files will be auto injected --> 
+    <script type="text/javascript" src="/best-resume-ever/static/js/manifest.62a698ca2c0dc4a41dcf.js"></sc  ript><script type="text/javascript" src="/best-resume-ever/static/js/app.d9bd9c33c0fc1ebe7d67.js"></scri  pt></body> 
+  </html> 
+  ======= 
+  <!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-s  cale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><title>best-resume-ever</title><link href=/be  st-resume-ever/static/css/app.ae7af70b13fea36a9985d00d11633024.css rel=stylesheet></head><body><div id=a  pp></div><script type=text/javascript src=/best-resume-ever/static/js/manifest.a1968370188ff6000ad1.js><  /script><script type=text/javascript src=/best-resume-ever/static/js/vendor.7b20ea13c2dde15b4c9c.js></sc  ript><script type=text/javascript src=/best-resume-ever/static/js/app.72eb82223dac58f4e917.js></script><  /body></html> 
+  >>>>>>> f55cef415816bcea38a8cf85663336b22077bee4
+  
+  - htmlparser.js:235 new HTMLParser
+    [CV]/[html-minifier]/src/htmlparser.js:235:13
+  
+  - htmlminifier.js:944 minify
+    [CV]/[html-minifier]/src/htmlminifier.js:944:3
+  
+  - htmlminifier.js:1304 exports.minify
+    [CV]/[html-minifier]/src/htmlminifier.js:1304:10
+  
+  - index.js:296 
+    [CV]/[html-webpack-plugin]/index.js:296:16
+  
+  - util.js:16 tryCatcher
+    [CV]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:512 Promise._settlePromiseFromHandler
+    [CV]/[bluebird]/js/release/promise.js:512:31
+  
+  - promise.js:569 Promise._settlePromise
+    [CV]/[bluebird]/js/release/promise.js:569:18
+  
+  - promise.js:614 Promise._settlePromise0
+    [CV]/[bluebird]/js/release/promise.js:614:10
+  
+  - promise.js:693 Promise._settlePromises
+    [CV]/[bluebird]/js/release/promise.js:693:18
+  
+  - async.js:133 Async._drainQueue
+    [CV]/[bluebird]/js/release/async.js:133:16
+  
+  - async.js:143 Async._drainQueues
+    [CV]/[bluebird]/js/release/async.js:143:10
+  
+  - async.js:17 Immediate.Async.drainQueues
+    [CV]/[bluebird]/js/release/async.js:17:14
+  
+</pre>
