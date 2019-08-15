@@ -1,0 +1,96 @@
+/* #*/ export const PERSON = `
+name:
+  first: Dejan
+  middle:
+  last: Mitrović
+#about: Capable of working with a variety of technology and software solutions, and managing databases. Valuable team member who has experience diagnosing problems and developing solutions. My experience as junior software developer enhanced my abilities in designing, implementing, testing, and upgrading software. One of my objectives is to keep updated with the latest IT trends and technologies. I am confident that if given the opportunity, I can be a useful talent to the company.
+project: DDD
+
+position: Junior Software Developer
+
+birth:
+  day: 1
+  month: December
+  year: 1995
+  location: Loznica
+
+experience:
+- project: Elanwave website (December 2018. – May 2019.)
+  position: Project role - Software developer
+  #timeperiod: since January 2016
+  description: The improvement of first version of the Elanwave’s website. The idea for the website was for it to be interactive, in the sense that the company needed a way to communicate with clients and future employees and to generate a strong online brand identity. Also the website had to be esthetically pleasing, follow the company’s branding and to be user friendly.
+
+- project: Timesheet (November 2018. – December 2018. / May 2019. – July 2019.)
+  position: Project role - QA Engineer / Software developer
+  #timeperiod: January 2015 - December 2015
+  description: The main goal of application is time tracking of employees and calculation of company income. Each employee in the system has its own timesheet to track time spent on the ongoing projects. Each manager in the system is responsible for approving or rejecting employee’s timesheets.
+
+# - project: Get the weather (January 2018. – February 2018.)
+#   position: Project role - Software developer
+#   #timeperiod: March 2014 - December 2014
+#   description: This project is daily weather forecast get local weather news, updates, maps of searched cities and local weather reports from your home screen. Get the weather today, rain alerts and track the local weather today, tomorrow, and for the next five days with your Global and Local Forecast Summary. Check the weekend weather forecast for rain alerts. Be prepared - whether it’s for a day of perfect travel weather or a gloomy dark sky.
+
+education:
+- degree: High School
+  timeperiod: 2010 - 2014
+  description: Electrical technician of computers
+  location: Loznica
+  image: graduate_logo.png
+
+
+- degree: Aleph ICT
+  timeperiod: March 2017 - January 2018
+  description: Web programming full stack training and computer software engineering course
+  location: Novi Sad
+  image: aleph_logo.png
+
+hobby:
+- description: Running 
+  image: running_logo.png
+
+- description: Games
+  image: gaming_logo.png
+
+- description: Movies 
+  image: movies_logo.png
+
+- description: Swimming
+  image: swimming_logo.png
+
+# skill level goes 0 to 100
+skill:
+- name: HTML5
+  image: html_logo.png
+- name: CSS3
+  image: css_logo.png
+- name: JavaScript
+  image: js_logo.png
+- name: Angular 8
+  image: angular_logo.png
+- name: C#
+  image: c_logo.png
+- name: .NET
+  image: net_logo.png
+- name: Umbraco
+  image: umbraco_logo.png
+- name: TypeScript
+  image: ts_logo.png
+- name: MySql
+  image: my_sql_logo.png
+- name: Java EE2
+  image: java_logo.png
+- name: Spring Boot
+  image: spring_logo.png
+knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+  (English and Klingon).
+
+contact:
+  email: dejan.mitrovic112@gmail.com
+  phone: 063/783-04-12
+  street: Antona Čehova 28
+  city: Novi Sad
+  github: mitrovic95
+  linkedin: https://www.linkedin.com/in/dejan-mitrović-573834156/
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: en
+`
